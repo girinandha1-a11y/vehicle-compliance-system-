@@ -1,0 +1,10 @@
+node_modules/
+dist/
+database.sqlite
+backend/database.json
+backend/database-*.json
+backend/uploads/*
+!backend/uploads/.gitkeep
+**/.env
+**/.env.*
+!**/.env.example

@@ -1,0 +1,13 @@
+{
+  "name": "RoadLedger Vehicle Compliance",
+  "short_name": "RoadLedger",
+  "description": "Vehicle cases, fines and compliance management",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#101b2d",
+  "theme_color": "#101b2d",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-paper text-navy-950 font-sans dark:bg-navy-950 dark:text-paper;
+}
+
+.plate-badge {
+  @apply font-plate tracking-wider bg-navy-950 text-paper px-3 py-1 rounded border-2 border-amber-500;
+}
+
+.status-dot {
+  @apply inline-block w-2.5 h-2.5 rounded-full mr-2;
+}
